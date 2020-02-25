@@ -1,5 +1,5 @@
 body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-color: cornflowerblue;
 }
 
@@ -10,5 +10,16 @@ body {
   margin-right: 5%;
   margin-bottom: 5%;
   background-color: lavenderblush;
+}
 
+.java {
+  display: none;
+}
+
+.ruby {
+  display: none;
+}
+
+.react {
+  display: none;
 }
