@@ -11,10 +11,49 @@
     <div class="container">
       <div class="box">
         <h1>What programming language should you try?</h1>
-        <p>
+        <h2>
           Take this short quiz to decide what programming language may be most
           compatible with your likes and needs.
-        </p>
+        </h2>
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3">
+            <form id="program">
+              <label for="goals"
+                >What are your goals for learning programming?</label
+              >
+              <select class="form-control" id="goals">
+                <option>Just for fun.</option>
+                <option>Add to an existing resume.</option>
+                <option>Change careers.</option>
+                <option>Improve skills.</option>
+              </select>
+              <label for="pref">What do you prefer?</label>
+              <select class="form-control" id="pref">
+                <option>Design and creativity.</option>
+                <option>Development and data input.</option>
+              </select>
+              <label for="importance"> What is most important to you? </label>
+              <select class="form-control" id="import">
+                <option>Simplicity.</option>
+                <option>Elegance.</option>
+                <option>Neither.</option>
+              </select>
+              <div class="form-group">
+                <label id="age1">How old are you?</label>
+                <input
+                  type="age"
+                  class="form-control"
+                  id="age"
+                  placeholder="Age"
+                />
+              </div>
+              <div class="form-group">
+                <label for="color">What is your favorite color?</label>
+                <input id="color" class="form-control" type="color" />
+              </div>
+            </form>
+          </div>
+        </div>
         <div class="java">
           <h2>You should try JavaScript!</h2>
           <p>
@@ -34,9 +73,7 @@
             easy to write. The Ruby programming language is most commonly used
             with the Ruby on Rails framework. Ruby and Rails are typically used
             by younger companies and startups, especially for building
-            interactive web applications. Companies using Ruby and Rails who
-            have hired Epicodus graduates include New Relic, LivingSocial, and
-            SpendWell.
+            interactive web applications.
           </p>
         </div>
         <div class="react">
@@ -51,6 +88,18 @@
             Examples of companies and products that use React include AirBnB,
             BBC, Ebay, Facebook, Instagram, Lyft, Netflix, New York Times,
             Reddit, Nike, Pinterest, Paypal, and many more.
+          </p>
+        </div>
+        <div class="c-sharp">
+          <h2>You should try C#!</h2>
+          <p>
+            The C# ("C sharp") programming language is most commonly used with
+            the .NET framework. Students who are well-versed in C# programming
+            can use it to create client applications, database applications,
+            distributed components, and much more. Students who learn C#
+            programming and combine it with their knowledge of the .NET
+            framework can target larger enterprises, government agencies, and
+            companies serving enterprise and government clients for employment.
           </p>
         </div>
       </div>
