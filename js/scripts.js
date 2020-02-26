@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $("form#program").submit(function(event) {
-    var goals = parseInt($("#goals").val());
+    var goals = parseInt($("select#goals").val());
     var pref = parseInt($("#pref").val());
     var importance = parseInt($("#import").val());
     var age = parseInt($("#age").val());
@@ -13,7 +13,7 @@ $(document).ready(function() {
     console.log(age);
     console.log(favoriteColor);
 
-    if (goals === "1" && age <= "50") {
+    if (goals === "1") {
       $(".java").show();
     }
     //   $(".react").hide();
