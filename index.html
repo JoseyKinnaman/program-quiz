@@ -18,39 +18,41 @@
         <div class="row">
           <div class="col-md-6 col-md-offset-3">
             <form id="program">
-              <label for="goals"
-                >What are your goals for learning programming?</label
-              >
-              <select class="form-control" id="goals">
-                <option>Just for fun.</option>
-                <option>Add to an existing resume.</option>
-                <option>Change careers.</option>
-                <option>Improve skills.</option>
-              </select>
-              <label for="pref">What do you prefer?</label>
-              <select class="form-control" id="pref">
-                <option>Design and creativity.</option>
-                <option>Development and data input.</option>
-              </select>
-              <label for="importance"> What is most important to you? </label>
-              <select class="form-control" id="import">
-                <option>Simplicity.</option>
-                <option>Elegance.</option>
-                <option>Neither.</option>
-              </select>
               <div class="form-group">
-                <label id="age1">How old are you?</label>
-                <input
-                  type="age"
-                  class="form-control"
-                  id="age"
-                  placeholder="Age"
-                />
+                <label for="goals"
+                  >What are your goals for learning programming?</label
+                >
+                <select class="form-control" id="goals">
+                  <option value="1">Just for fun.</option>
+                  <option value="2">Add to an existing resume.</option>
+                  <option value="3">Change careers.</option>
+                  <option value="4">Improve skills.</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="pref">What do you prefer?</label>
+                <select class="form-control" id="pref">
+                  <option value="1">Design and creativity.</option>
+                  <option value="2">Development and data input.</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="importance"> What is most important to you? </label>
+                <select class="form-control" id="import">
+                  <option value="1">Simplicity.</option>
+                  <option value="2">Speed.</option>
+                  <option value="3">Neither.</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="age">How old are you?</label>
+                <input type="age" class="form-control" id="age" />
               </div>
               <div class="form-group">
                 <label for="color">What is your favorite color?</label>
                 <input id="color" class="form-control" type="color" />
               </div>
+              <button type="submit" class="btn btn-default">Submit</button>
             </form>
           </div>
         </div>
