@@ -1,8 +1,8 @@
 $(document).ready(function() {
   $("form#program").submit(function(event) {
-    var goals = parseInt($("select#goals").val());
-    var pref = parseInt($("#pref").val());
-    var importance = parseInt($("#import").val());
+    var goals = $("select#goals").val();
+    var pref = $("#pref").val();
+    var importance = $("#import").val();
     var age = parseInt($("#age").val());
     var favoriteColor = $("#color").val();
     event.preventDefault();
