@@ -15,26 +15,24 @@ $(document).ready(function() {
 
     if (goals === "1") {
       $(".java").show();
+      $(".react").hide();
+      $(".ruby").hide();
+      $(".c-sharp").hide();
+    } else if (pref === "1") {
+      $(".react").show();
+      $(".java").hide();
+      $(".ruby").hide();
+      $(".c-sharp").hide();
+    } else if (importance === "1") {
+      $(".ruby").show();
+      $(".react").hide();
+      $(".java").hide();
+      $(".c-sharp").hide();
+    } else if (goals === "3" || pref === "2") {
+      $(".c-sharp").show();
+      $(".react").hide();
+      $(".ruby").hide();
+      $(".java").hide();
     }
-    //   $(".react").hide();
-    //   $(".ruby").hide();
-    //   $(".c-sharp").hide();
-    //   debugger;
-    // } else if (pref === "1") {
-    //   $(".react").show();
-    //   $(".java").hide();
-    //   $(".ruby").hide();
-    //   $(".c-sharp").hide();
-    // } else if (importance === "1") {
-    //   $(".ruby").show();
-    //   $(".react").hide();
-    //   $(".java").hide();
-    //   $(".c-sharp").hide();
-    // } else if (goals === "3" || pref === "2") {
-    //   $(".c-sharp").show();
-    //   $(".react").hide();
-    //   $(".ruby").hide();
-    //   $(".java").hide();
-    // }
   });
 });
