@@ -7,11 +7,11 @@ $(document).ready(function() {
     var favoriteColor = $("#color").val();
     event.preventDefault();
 
-    console.log(goals);
-    console.log(pref);
-    console.log(importance);
-    console.log(age);
-    console.log(favoriteColor);
+    // console.log(goals);
+    // console.log(pref);
+    // console.log(importance);
+    // console.log(age);
+    // console.log(favoriteColor);
 
     if (goals === "1") {
       $(".java").show();
